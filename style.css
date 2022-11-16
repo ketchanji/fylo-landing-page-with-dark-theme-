@@ -210,6 +210,8 @@ ul li a{
 .container-2{
     width: 100%;
     height: 60vh;
+    padding-top: 90px;
+    padding-bottom: 90px;
     display: flex;
     align-items: center;
     background-color: hsl(218, 28%, 13%);
@@ -252,6 +254,7 @@ ul li a{
 .testimonia-container{
     width: 100%;
     height: 40vh;
+    padding-bottom: 30px;
     background-color: hsl(218, 28%, 13%);
     position: relative;
 }
@@ -291,6 +294,7 @@ ul li a{
 .box1{
     width: 35%;
     height: 30vh;
+    border-radius: 10px;
     z-index: 6;
     background-color: hsl(217, 28%, 15%);
 }
@@ -301,6 +305,7 @@ ul li a{
 .box2{
     width: 35%;
     height: 30vh;
+    border-radius: 10px;
     background-color: hsl(217, 28%, 15%);
 }
 .box2 p{
@@ -310,6 +315,7 @@ ul li a{
 .box3{
     width: 35%;
     height: 30vh;
+    border-radius: 10px;
     background-color: hsl(217, 28%, 15%);
 }
 .box3 p{
