@@ -322,3 +322,60 @@ ul li a{
     font-size: 17px;
     color: rgb(192, 187, 187);
 }
+.subcribe-section{
+    width: 100%;
+    height: 30vh;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: hsl(218, 28%, 13%);
+}
+.subcribe{
+    width: 60%;
+    height: 27vh;
+    margin: auto;
+    background-color: hsl(217, 28%, 15%);
+}
+.subcribe h1{
+    font-size: 29px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 22px;
+}
+.subcribe p{
+    width: 50%;
+    margin: auto;
+    font-size: 16px;
+    text-align: center;
+    color: rgb(230, 230, 230);
+    padding-top: 10px;
+}
+.subcribe span{
+    width: 70%;
+    margin: auto;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.subcribe span input{
+    width: 70%;
+    height: 40px;
+    padding-left: 15px;
+    border: 0;
+    border-radius: 20px;
+}
+.subcribe span button{
+    width: 25%;
+    height: 40px;
+    padding-left: 5px;
+    border: 0;
+    font-size: 13px;
+    border-radius: 20px;
+    color: #fff;
+    background-color: hsl(177, 55%, 51%);
+}
+.fotter{
+    width: 100%;
+    height: 50vh;
+    background-color: hsl(216, 53%, 9%);
+}
