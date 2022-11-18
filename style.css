@@ -254,7 +254,7 @@ ul li a{
 .testimonia-container{
     width: 100%;
     height: 40vh;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     background-color: hsl(218, 28%, 13%);
     position: relative;
 }
@@ -325,7 +325,6 @@ ul li a{
 .subcribe-section{
     width: 100%;
     height: 30vh;
-    padding-top: 20px;
     padding-bottom: 10px;
     background-color: hsl(218, 28%, 13%);
 }
@@ -334,6 +333,10 @@ ul li a{
     height: 27vh;
     margin: auto;
     background-color: hsl(217, 28%, 15%);
+    position: relative;
+    left: -1rem;
+    top: 8rem;
+    z-index: 3;
 }
 .subcribe h1{
     font-size: 29px;
@@ -377,5 +380,49 @@ ul li a{
 .fotter{
     width: 100%;
     height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     background-color: hsl(216, 53%, 9%);
+    position: absolute;
+    z-index: 1;
+}
+.fotter1{
+    width: 25%;
+}
+.fotter1 div{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+.fotter1 div p{
+    color: #fff;
+}
+.fotter2{
+    width: 25%;
+}
+.fotter2 div{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+.fotter2 div p{
+    color: #fff;
+}
+.fotter3{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fotter3 ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+}
+.fotter4{
+    width: 25%;
 }
